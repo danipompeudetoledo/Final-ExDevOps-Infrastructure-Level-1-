@@ -5,8 +5,13 @@
   "targets": {
     "finalexam-ccc8f": {
       "hosting": {
+        "testing": [
+          "finalexam-ccc8f"
+        ],
+        "staging": [
+          "finalexam-ccc8f"
+        ],
         "production": [
-          "finalexam",
           "finalexam-ccc8f"
         ]
       }
