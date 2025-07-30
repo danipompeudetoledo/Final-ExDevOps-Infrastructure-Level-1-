@@ -6,12 +6,6 @@ pipeline {
     }
 
     stages {
-        stage('Install Firebase CLI') {
-            steps {
-                sh 'npm install -g firebase-tools'
-            }
-        }
-
         stage('Deploy to Testing') {
             steps {
                 sh 'firebase use testing --token "$FIREBASE_TOKEN"'
@@ -34,4 +28,5 @@ pipeline {
         }
     }
 }
+
 
