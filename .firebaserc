@@ -6,9 +6,7 @@
     "finalexam-ccc8f": {
       "hosting": {
         "production": [
-          "finalexam"
-        ],
-        "staging": [
+          "finalexam",
           "finalexam-ccc8f"
         ]
       }
