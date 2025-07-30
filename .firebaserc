@@ -5,13 +5,14 @@
   "targets": {
     "finalexam-ccc8f": {
       "hosting": {
-        "production": ["finalexam"],
-        "testing": ["finalexam"],
-        "staging": ["finalexam"]
+        "production": [
+          "finalexam"
+        ],
+        "staging": [
+          "finalexam-ccc8f"
+        ]
       }
     }
   },
   "etags": {}
 }
-
-
