@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "finalexam-ccc8f"
-  }
+  },
+  "targets": {
+    "finalexam-ccc8f": {
+      "hosting": {
+        "production": [
+          "finalexam"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
